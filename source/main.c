@@ -20,8 +20,11 @@ int main(void) {
 	
     	while (1) {
 		tempA = PINA & 0x0F;
-
-		if(tempA == 1 || tempA == 2){
+		
+		if(tempA == 0){
+			tempC = 0x00;
+		}
+		else if(tempA == 1 || tempA == 2){
 			tempC = 0x60;
 		}
 		else if(tempA == 3 || tempA == 4){

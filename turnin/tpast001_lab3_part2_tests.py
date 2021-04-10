@@ -32,14 +32,18 @@
 # to be scoped at the function level (for static variables) if there are naming conflicts. The 
 # variables listed here will display everytime you hit (and stop at) a breakpoint
 #watch = ['<function>::<static-var>','PORTB']
-tests = [ {'description': 'Test 1',
+tests = [ {'description': 'Test 0',
+    'steps': [ {'inputs': [('PINA',0x00)], 'iterations': 5 }],
+    'expected': [('PORTC',0x00)],
+    },  
+    {'description': 'Test 1',
     'steps': [ {'inputs': [('PINA',0x01)], 'iterations': 5 }],
     'expected': [('PORTC',0x60)],
-    },  
+    }, 
     {'description': 'Test 2',
     'steps': [ {'inputs': [('PINA',0x02)], 'iterations': 5 }],
     'expected': [('PORTC',0x60)],
-    },   
+    },
     {'description': 'Test 3',
     'steps': [ {'inputs': [('PINA',0x03)], 'iterations': 5 }],
     'expected': [('PORTC',0x70)],
