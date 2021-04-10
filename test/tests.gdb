@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Test file for "Lab3-BitManipulation"
+=======
+# Test file for "BitManipulation"
+>>>>>>> f05e07e93fff22bfa50dc8f6169df59c91525907
 
 
 # commands.gdb provides the following functions for ease:

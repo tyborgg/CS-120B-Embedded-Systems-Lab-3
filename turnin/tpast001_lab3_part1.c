@@ -1,5 +1,5 @@
 /*	Author: tpast001
- *  	Partner(s) Name: N/A
+ *  Partner(s) Name: N/A
  *	Lab Section: 023
  *	Assignment: Lab #3  Exercise #1
  *	Exercise Description: [optional - include for your own benefit]
