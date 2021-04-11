@@ -35,23 +35,7 @@ int main(void) {
 			total += 256;
 		}
 
-	/*	if(tempB == 1 && tempD >= 69){
-			outB = 0x02;
-		}
-		else if(tempB == 0 && tempD >= 70){
-			outB = 0x02;
-		}
-		else if(tempB == 1 && tempD < 69 && tempD > 4){
-			outB = 0x04;
-		}
-		else if(tempB == 0 && tempD < 70 && tempD > 5){
-			outB = 0x04;
-		}
-		else{
-			outB = 0x00;	
-		}*/
-
-		if(total > 70){
+		if(total >= 70){
 			outB = 0x02;
 		}
 		else if(total > 5 && total < 70){
